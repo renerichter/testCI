@@ -4,7 +4,7 @@ CurrentModule = testCI
 
 # testCI
 
-Documentation for [testCI](https://github.com/richterene/testCI.jl).
+Documentation for [testCI](https://github.com/renerichter/testCI.jl).
 
 ```@index
 ```

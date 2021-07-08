@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(testCI, :DocTestSetup, :(using testCI); recursive=true)
 makedocs(;
     modules=[testCI],
     authors="René Lachmann <herr.rene.richter@gmail.com> and contributors",
-    repo="https://github.com/richterene/testCI.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/renerichter/testCI.jl/blob/{commit}{path}#{line}",
     sitename="testCI.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://richterene.github.io/testCI.jl",
+        canonical="https://renerichter.github.io/testCI.jl",
         assets=String[],
     ),
     pages=[
@@ -19,5 +19,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/richterene/testCI.jl",
+    repo="github.com/renerichter/testCI.jl",
 )
