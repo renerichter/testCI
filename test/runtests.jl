@@ -2,5 +2,6 @@ using testCI
 using Test
 
 @testset "testCI.jl" begin
-    # Write your tests here.
+    @test testCI.lol("hiho") == "hiho"
+	
 end

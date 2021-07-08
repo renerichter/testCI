@@ -12,3 +12,6 @@ Documentation for [testCI](https://github.com/richterene/testCI.jl).
 ```@autodocs
 Modules = [testCI]
 ```
+
+```@docs
+```
